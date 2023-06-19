@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400;500;600;700&family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+}
+header {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 5%;
+  background-color: yellow;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+.products-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1.25rem;
+  margin: 2% auto;
+}
+
+.product-banner {
+  width: 88%;
+}
+
+.product-banner img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.main-heading {
+  width: 90%;
+  margin: 0 6%;
+}
+.main-heading h1 {
+  margin: 0;
+  font-weight: 600;
+}
+.main-heading div {
+  width: 160px;
+  height: 2px;
+  background-color: #fbd139;
+  display: block;
+  margin: 6px 0 0 2px;
+}
+.product {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 7px;
+
+  min-width: 20%;
+}
+
+.product-img img {
+  width: 100%;
+  border-radius: 2px;
+}
+
+.product-img img:hover {
+  transform: scale(1.015);
+  cursor: pointer;
+  transition: all 0.2s ease-in;
+}
+
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.product-details {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.heading-font {
+  font-size: 0.8rem;
+  margin: 0;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.subheading-font {
+  font-size: 0.7rem;
+  margin: 0;
+  margin-top: 5px;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+
+.product-price p {
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+
+.product-price p span {
+  text-decoration: line-through;
+  font-size: 0.7rem;
+  font-weight: 400;
+  color: rgb(124, 124, 124);
+}
+
+.product-additional-details p {
+  margin: 0;
+  font-size: 0.8rem;
+  border: 1px solid lightslategray;
+  padding: 3px 5px;
+  color: lightslategray;
+}
+
+footer {
+  height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+}
+
+footer p {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: yellow;
+}
