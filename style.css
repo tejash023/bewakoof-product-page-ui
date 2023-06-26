@@ -6,12 +6,35 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 header {
-  height: 10vh;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
-  background-color: yellow;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.header-nav,
+.user-actions {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  list-style: none;
 }
 
 .user {
@@ -19,6 +42,32 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
+  width: 35%;
+}
+
+.search-product {
+  display: flex;
+  align-items: center;
+  background: #eaeaea;
+  padding: 7px;
+  border-radius: 5px;
+  width: 70%;
+}
+
+/* .search-product input:focus {
+  background: white;
+  border: 1px solid #4f5362;
+} */
+.search-product span {
+  color: #4f5362;
+  font-weight: 200;
+}
+.search-product input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-size: 0.7rem;
+  width: 100%;
 }
 
 .products-wrapper {
@@ -32,7 +81,8 @@ header {
 }
 
 .product-banner {
-  width: 88%;
+  width: 90%;
+  margin-top: 50px;
 }
 
 .product-banner img {
