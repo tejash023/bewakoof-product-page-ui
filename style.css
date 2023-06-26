@@ -70,6 +70,40 @@ header {
   border-radius: 2px;
 }
 
+.product-img {
+  position: relative;
+}
+
+.fit-type p {
+  margin: 0;
+}
+
+.ratings p {
+  margin: 0;
+}
+
+.fit-type {
+  position: absolute;
+  background-color: #00000063;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.5rem;
+  top: 0;
+  padding: 5px;
+}
+
+.ratings {
+  position: absolute;
+  bottom: 5%;
+  font-size: 0.6rem;
+  background-color: #f7f7f7 !important;
+  padding: 1px 5px;
+}
+
+.ratings i {
+  color: #ffc700 !important;
+}
+
 .product-img img:hover {
   transform: scale(1.015);
   cursor: pointer;
