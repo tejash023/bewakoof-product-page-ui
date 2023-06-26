@@ -35,6 +35,9 @@ header {
   justify-content: space-between;
   gap: 1rem;
   list-style: none;
+  text-transform: uppercase;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 
 .user {
