@@ -10,6 +10,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 0 5%;
+  max-width: 1170px;
   background-color: white;
   border-bottom: 1px solid lightgray;
   position: fixed;
@@ -45,16 +46,19 @@ header {
   align-items: center;
   justify-content: space-between;
   gap: 1rem;
-  width: 35%;
+  width: 38%;
 }
 
+.user-actions li span {
+  font-weight: 300;
+}
 .search-product {
   display: flex;
   align-items: center;
   background: #eaeaea;
-  padding: 7px;
+  padding: 9px;
   border-radius: 5px;
-  width: 70%;
+  width: 85%;
 }
 
 /* .search-product input:focus {
@@ -70,7 +74,7 @@ header {
   outline: none;
   background: transparent;
   font-size: 0.7rem;
-  width: 100%;
+  width: 90%;
 }
 
 .products-wrapper {
@@ -243,4 +247,38 @@ footer p {
   font-size: 1.25rem;
   font-weight: 700;
   color: yellow;
+}
+
+.support-chat {
+  background-color: tomato;
+  padding: 20px;
+  width: 30px;
+  height: 30px;
+  position: fixed;
+  right: 2%;
+  bottom: 5%;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  align-items: center;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.support-chat:hover {
+  background-color: midnightblue;
+  cursor: pointer;
+}
+
+.support-chat p {
+  font-size: 0.7rem;
+  margin: 0;
+}
+
+.support-chat p i {
+  font-size: 1.2rem;
 }
