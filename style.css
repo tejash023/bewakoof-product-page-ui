@@ -114,8 +114,15 @@ header {
   flex-direction: column;
   align-items: flex-start;
   padding: 7px;
-
+  border-radius: 5px;
   min-width: 20%;
+}
+
+.product:hover {
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px,
+    rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+
+  cursor: pointer;
 }
 
 .product-img img {
@@ -157,8 +164,9 @@ header {
   color: #ffc700 !important;
 }
 
-.product-img img:hover {
+.product-img:hover {
   transform: scale(1.015);
+  filter: opacity(0.9);
   cursor: pointer;
   transition: all 0.2s ease-in;
 }
